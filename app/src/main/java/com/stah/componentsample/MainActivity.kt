@@ -26,6 +26,8 @@ class MainActivity : AppCompatActivity() {
 
         val pagerAdapter = ScreenSlidePagerAdapter(supportFragmentManager)
         mPager.adapter = pagerAdapter
+        //mPager.setPageTransformer(true, ZoomOutPageTransformer())
+
         val tabLayout = findViewById<TabLayout>(R.id.tab_layout)
         tabLayout.setupWithViewPager(mPager)
         viewModel.selectedItem.observe(this, Observer { item ->
