@@ -3,7 +3,7 @@ name: Sprint Milestone
 on:
   schedule:
     # Every monday at 12UTC, create the new milestone
-    - cron: "0 ６ * * 1"
+    - cron: "0 １２ * * 1"
 
 jobs:
   sprint_milestone:
