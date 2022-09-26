@@ -14,5 +14,5 @@ jobs:
         with:
           project-url: https://github.com/users/yoshida0261/projects/2
           github-token: ${{ secrets.ADD_TO_PROJECT_PAT }}
-          labeled: Test Test
+          labeled: "Test Test"
           label-operator: NOT
